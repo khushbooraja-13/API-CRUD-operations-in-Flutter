@@ -20,7 +20,7 @@ class _InsertFormState extends State<InsertForm> {
     super.initState();
     if(widget.map!=null) {
       nameController.text = widget.map!["name"];
-      ageController.text = widget.map!["age"];
+      ageController.text = widget.map!["age"].toString();
     }
   }
 
